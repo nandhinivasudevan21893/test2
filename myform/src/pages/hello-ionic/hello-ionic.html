@@ -1,0 +1,72 @@
+<!-- <ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>My data</ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+
+
+    <!-- <ion-header>
+        <ion-navbar>
+          <ion-buttons start>
+            <button ion-button icon-only>
+              <ion-icon name="contact"></ion-icon>
+            </button>
+          </ion-buttons>
+      
+          <ion-buttons end>
+            <button ion-button icon-only>
+              <ion-icon name="search"></ion-icon>
+            </button>
+          </ion-buttons>
+        </ion-navbar>
+      </ion-header> -->
+ <ion-content padding>
+  <h3 padding id="title1">Login</h3>
+  <!-- <h3 padding class="title1 title2">Login</h3> -->
+  <div>
+    <!-- <img src="assets/imgs/logo.png" alt=""> -->
+    <form (ngSubmit) = "login(f)" #f="ngForm">
+    
+      <ion-list>
+          <ion-item margin-bottom>
+            <ion-label position="floating">Username</ion-label>
+            <ion-input  ngModel name="username" ></ion-input>
+          </ion-item>
+
+          <ion-item margin-bottom>
+            <ion-label position="floating">Password</ion-label>
+            <ion-input  type="password" ngModel name="password" ></ion-input>
+          </ion-item>
+
+
+          
+          <!-- <ion-item margin-bottom>
+            <ion-label position="floating">Address</ion-label>
+            <ion-input  ngModel name="addresss" ></ion-input>
+          </ion-item> -->
+
+        </ion-list>
+        <button ion-button full color="primary" type="submit">Login</button>
+    </form>
+  </div>
+  
+  </ion-content>
+  <!-- <button ion-button color="secondary"(click)="goToOtherPage()">click</button> -->
+
+  <!-- <form (ngSubmit) = "login(f)" #f="ngForm">
+      <ion-item margin-bottom>
+          <ion-label position="floating">Username</ion-label>
+            <ion-input ngModel name="name" ></ion-input>
+        </ion-item>
+        <ion-item margin-bottom>
+            <ion-label position="floating">Password</ion-label>
+            <ion-input  type="password" ngModel name="password" ></ion-input>
+        </ion-item>
+        <button ion-button color="primary" type="submit" >submit</button>
+  </form> -->
+ 
+ 
